@@ -2,7 +2,7 @@
 # Process this file with autoconf to produce a configure script.
 
 AC_PREREQ([2.69])
-AC_INIT(AVLDupTree, 1.0.0, "https://github.com/HaikuArchives/AVLDupTree/issues")
+AC_INIT(AVLDupTree, 1.0.0, [https://github.com/HaikuArchives/AVLDupTree/issues])
 AC_CONFIG_SRCDIR([Source/AVLDupTree.c])
 
 # Checks for programs.
