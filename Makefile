@@ -123,8 +123,8 @@ APP_VERSION :=
 DRIVER_PATH = 
 
 ## Include the Makefile-Engine
-DEVEL_DIRECTORY := \
-	$(shell findpaths -r "makefile_engine" B_FIND_PATH_DEVELOP_DIRECTORY)
+# DEVEL_DIRECTORY := \
+#	$(shell findpaths -r "makefile_engine" B_FIND_PATH_DEVELOP_DIRECTORY)
 include $(DEVEL_DIRECTORY)/etc/makefile-engine
 ##	BeOS and Haiku Generic Makefile Engine v2.5.1
 ##	Does all the hard work for the Generic Makefile
